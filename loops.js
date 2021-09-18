@@ -8,10 +8,11 @@
 //     console.log(a);
 // }
 
-const arr = ['qw','we', 'sd', 'sd', 'as'];
+// const arr = ['qw','we', 'sd', 'sd', 'as'];
 // const len = arr.length;
 // for(let ctr = 0; ctr<len; ctr++){
 //     let currentElement = arr[ctr];
 //     console.log(currentElement);
 // }
 // arr.forEach((val) => { console.log(val) })
+
