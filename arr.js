@@ -30,13 +30,45 @@
 // const arr = [{isAnimal: true, type: 'cheetah'}, {isBird: true, type: 'parrot'}, {isBird: true, type: 'sparrow'},{isBird: true, type: 'pigeon'}, {isAnimal: true, type: 'lion'}]
 // // output => [cheetah,parrot, sparrow, pigeon, lion]
 
-const arr = [22,133,66,44,29,33];
-let evenNumbers = arr.filter((elem) => {
+// const arr = [22,133,66,44,29,33];
+// let evenNumbers = arr.filter((elem) => {
     // if(elem % 2 === 0){
     //     return true
     // } else {
     //     return false
     // }
-    return false;
-})
-console.log(evenNumbers)
+//     return false;
+// })
+// console.log(evenNumbers)
+
+// reduce
+// const bankMoney = [{name: String; amount: Number;}, 
+//    {name: String; amount: Number;},
+//    {name: String; amount: Number;},
+//
+
+// const arr = [1,2,3,4,5,6,7]
+// const reducedValue = arr.reduce((acc, elem) => {
+//     let sum = acc + elem;
+//     console.log({acc, elem, sum})
+//     return sum;
+// }, 0)
+
+// console.log({ reducedValue })
+
+const arr = [
+    {name: 'Abhinav',
+        age: 25,
+        money: 1000,
+    },
+    {
+        name: 'Guy',
+        age: 18,
+        money: 500,
+    },
+    {
+        name: 'XYZ',
+        age: 20,
+        money: 4000
+    },
+]
