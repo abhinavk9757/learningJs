@@ -34,6 +34,31 @@
 // let valStr = s[2];
 // console.log(valArr, valStr)
 
-const splitteStr = '4000,500'.split('');
-const joinedStr = splitteStr.join('$');
-console.log(joinedStr)
+// const splitteStr = '4000,500'.split('');
+// const joinedStr = splitteStr.join('$');
+// console.log(joinedStr)
+
+// const arr = ['A', 'b', 'c', 'd', 'e']
+// const str = 'Abcde';
+// for(let ctr = 0; ctr < str.length; ctr++){
+//     let val = str[ctr];
+//     let val2 = str.charAt(ctr);
+//     console.log(val, ' ', val2)
+// }
+
+// palindrome
+const str = 'ABCD';
+
+let isPalindrome = true;
+for(let ctrStart = 0, ctrEnd = str.length -1; ctrStart <= ctrEnd ; ctrStart++, ctrEnd-- ){
+    if(str[ctrStart] !== str[ctrEnd]){
+        isPalindrome = false
+        break;
+    }
+}
+if(isPalindrome){
+    console.log('Palindrome')
+} else {
+    console.log('Not Palindrome')
+}
+
