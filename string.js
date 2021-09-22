@@ -47,18 +47,55 @@
 // }
 
 // palindrome
-const str = 'ABCD';
+// const str = 'ABCD';
 
-let isPalindrome = true;
-for(let ctrStart = 0, ctrEnd = str.length -1; ctrStart <= ctrEnd ; ctrStart++, ctrEnd-- ){
-    if(str[ctrStart] !== str[ctrEnd]){
-        isPalindrome = false
-        break;
-    }
-}
-if(isPalindrome){
-    console.log('Palindrome')
-} else {
-    console.log('Not Palindrome')
+// let isPalindrome = true;
+// for(let ctrStart = 0, ctrEnd = str.length -1; ctrStart <= ctrEnd ; ctrStart++, ctrEnd-- ){
+//     if(str[ctrStart] !== str[ctrEnd]){
+//         isPalindrome = false
+//         break;
+//     }
+// }
+// if(isPalindrome){
+//     console.log('Palindrome')
+// } else {
+//     console.log('Not Palindrome')
+// }
+
+// let obj = {};
+// let key = 'name';
+// let value = 'Abhinav';
+
+// obj[key] = value;
+// // { name: 'Abhinav'}
+
+// // my.Prop
+// // obj['my.Prop'] = 'dfjknkj';
+// console.log(obj)
+
+// const str = 'This is a string';
+// console.log(str.substring(5))
+
+
+
+let store = {};
+let module1 = 'mod1';
+let module2 = 'mod2';
+let module3 = 'mod3';
+
+const setValue = (key, val, module) => {
+
 }
 
+
+const getValue = (key, module) => {
+    
+}
+
+// store data
+// setValue('name', 'Abhinav', module1)
+// {'mod1_name': 'Abhinav'};
+
+// get value of name from module 1
+// getValue('name',module1)
+// 'Abhinav'
