@@ -2,13 +2,13 @@
 // functions have parameters
 // function has a return statement
 
-function sum(num1, num2) {
-    const addValue = num1 + num2;
-    return addValue;
-}
+// function sum(num1, num2) {
+//     const addValue = num1 + num2;
+//     return addValue;
+// }
 
-const sumOf2310 = sum(23,10);
-console.log(sumOf2310)
+// const sumOf2310 = sum(23,10);
+// console.log(sumOf2310)
 
 // function print(){
 //     console.log('1')
