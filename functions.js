@@ -24,3 +24,88 @@
 // }
 
 // func('first', 'second', 'third', 'fourth')
+
+// even => num %2 === 0
+
+// Figure out what is happening here
+// recursive
+// let target = 25;
+
+// function odd(num) {
+//     if(num === target){
+//         console.log("Target is Odd");
+//     } else {
+//         even(num+1)
+//     }
+// }
+
+// function even(num) {
+//     if(num === target) {
+//         console.log("Target is Even");
+//     } else {
+//         odd(num+1)
+//     }
+// }
+
+// even(0);
+
+// function funName(){}   // ====> regular functions
+// let arrowFunc = () => {}  // -----> arrow functions
+
+// function a(str1 = '', str2 = '') {
+//     return str1 + str2;
+// }
+
+// console.log(a(undefined, 'assd'))
+
+
+// let recursive = (ctr) => {
+//     if(ctr>2){
+//         return;
+//     } else {
+//         console.log(ctr);
+//     }
+    
+//     recursive(ctr+1);
+// }
+
+// recursive(0);
+
+
+
+// R1
+// ctr = 0
+
+// R2
+// ctr = 1
+
+// R3
+// ctr = 2
+
+// R4
+// ctr = 3
+
+// 012
+
+
+
+// const func1 = () => {
+//     console.log('This is start statement');  // 1
+//     func2();
+//     console.log('This is after my call'); // 3
+
+//  return undefined;
+// }
+
+// const func2 = () => {
+//     console.log('This is func 2'); // 2
+// }
+
+// func1();
+
+
+
+// const func = () => {
+//     return;
+// };
+// func();
