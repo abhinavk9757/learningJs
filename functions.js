@@ -109,3 +109,14 @@
 //     return;
 // };
 // func();
+
+
+// Find the factorial of a number by using for loop and then try same using recursion
+// factorial of 4 = 4*3*2*1
+// factorial of 3 = 3*2*1
+
+const factorial = (num) => {
+    return;
+}
+console.log(factorial(10));
+
